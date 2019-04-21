@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D16DB5F4219902990057D129 /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16DB5F3219902990057D129 /* SecondaryViewController.swift */; };
+		D16DB5F8219922D70057D129 /* roundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16DB5F7219922D70057D129 /* roundedButton.swift */; };
+		D16DB5FA219F39170057D129 /* splashUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16DB5F9219F39170057D129 /* splashUIViewController.swift */; };
+		D16DB60521A108120057D129 /* washburn_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16DB60421A108120057D129 /* washburn_Extensions.swift */; };
+		D193A1E9215F0C5000FA4A17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D193A1E8215F0C5000FA4A17 /* AppDelegate.swift */; };
+		D193A1EB215F0C5000FA4A17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D193A1EA215F0C5000FA4A17 /* ViewController.swift */; };
+		D193A1EE215F0C5000FA4A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D193A1EC215F0C5000FA4A17 /* Main.storyboard */; };
+		D193A1F0215F0C5100FA4A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D193A1EF215F0C5100FA4A17 /* Assets.xcassets */; };
+		D193A1F3215F0C5100FA4A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D193A1F1215F0C5100FA4A17 /* LaunchScreen.storyboard */; };
+		D193A1FE215F0C5100FA4A17 /* Washburn_Interval_Timer_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D193A1FD215F0C5100FA4A17 /* Washburn_Interval_Timer_AppTests.swift */; };
+		D193A209215F0C5100FA4A17 /* Washburn_Interval_Timer_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D193A208215F0C5100FA4A17 /* Washburn_Interval_Timer_AppUITests.swift */; };
+		D1E147C821BAF1B7007EF1D6 /* _2_Core_Data_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1E147C621BAF1B7007EF1D6 /* _2_Core_Data_Demo.xcdatamodeld */; };
+		D1F8C36421A86460000F1496 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1F8C36321A86460000F1496 /* beep.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D193A1FA215F0C5100FA4A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D193A1DD215F0C5000FA4A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D193A1E4215F0C5000FA4A17;
+			remoteInfo = "Washburn Interval Timer App";
+		};
+		D193A205215F0C5100FA4A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D193A1DD215F0C5000FA4A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D193A1E4215F0C5000FA4A17;
+			remoteInfo = "Washburn Interval Timer App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D16DB5F3219902990057D129 /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
+		D16DB5F7219922D70057D129 /* roundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundedButton.swift; sourceTree = "<group>"; };
+		D16DB5F9219F39170057D129 /* splashUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashUIViewController.swift; sourceTree = "<group>"; };
+		D16DB60421A108120057D129 /* washburn_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = washburn_Extensions.swift; sourceTree = "<group>"; };
+		D193A1E5215F0C5000FA4A17 /* Washburn Interval Timer App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Washburn Interval Timer App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D193A1E8215F0C5000FA4A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D193A1EA215F0C5000FA4A17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D193A1ED215F0C5000FA4A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D193A1EF215F0C5100FA4A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D193A1F2215F0C5100FA4A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D193A1F4215F0C5100FA4A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D193A1F9215F0C5100FA4A17 /* Washburn Interval Timer AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Washburn Interval Timer AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D193A1FD215F0C5100FA4A17 /* Washburn_Interval_Timer_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Washburn_Interval_Timer_AppTests.swift; sourceTree = "<group>"; };
+		D193A1FF215F0C5100FA4A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D193A204215F0C5100FA4A17 /* Washburn Interval Timer AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Washburn Interval Timer AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D193A208215F0C5100FA4A17 /* Washburn_Interval_Timer_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Washburn_Interval_Timer_AppUITests.swift; sourceTree = "<group>"; };
+		D193A20A215F0C5100FA4A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E147C721BAF1B7007EF1D6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D1F8C36321A86460000F1496 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D193A1E2215F0C5000FA4A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D193A1F6215F0C5100FA4A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D193A201215F0C5100FA4A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D193A1DC215F0C5000FA4A17 = {
+			isa = PBXGroup;
+			children = (
+				D193A1E7215F0C5000FA4A17 /* Washburn Interval Timer App */,
+				D193A1FC215F0C5100FA4A17 /* Washburn Interval Timer AppTests */,
+				D193A207215F0C5100FA4A17 /* Washburn Interval Timer AppUITests */,
+				D193A1E6215F0C5000FA4A17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D193A1E6215F0C5000FA4A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D193A1E5215F0C5000FA4A17 /* Washburn Interval Timer App.app */,
+				D193A1F9215F0C5100FA4A17 /* Washburn Interval Timer AppTests.xctest */,
+				D193A204215F0C5100FA4A17 /* Washburn Interval Timer AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D193A1E7215F0C5000FA4A17 /* Washburn Interval Timer App */ = {
+			isa = PBXGroup;
+			children = (
+				D193A1E8215F0C5000FA4A17 /* AppDelegate.swift */,
+				D16DB5F9219F39170057D129 /* splashUIViewController.swift */,
+				D193A1EA215F0C5000FA4A17 /* ViewController.swift */,
+				D1F8C36321A86460000F1496 /* beep.mp3 */,
+				D193A1EC215F0C5000FA4A17 /* Main.storyboard */,
+				D193A1EF215F0C5100FA4A17 /* Assets.xcassets */,
+				D16DB60421A108120057D129 /* washburn_Extensions.swift */,
+				D1E147C621BAF1B7007EF1D6 /* _2_Core_Data_Demo.xcdatamodeld */,
+				D193A1F1215F0C5100FA4A17 /* LaunchScreen.storyboard */,
+				D193A1F4215F0C5100FA4A17 /* Info.plist */,
+				D16DB5F3219902990057D129 /* SecondaryViewController.swift */,
+				D16DB5F7219922D70057D129 /* roundedButton.swift */,
+			);
+			path = "Washburn Interval Timer App";
+			sourceTree = "<group>";
+		};
+		D193A1FC215F0C5100FA4A17 /* Washburn Interval Timer AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D193A1FD215F0C5100FA4A17 /* Washburn_Interval_Timer_AppTests.swift */,
+				D193A1FF215F0C5100FA4A17 /* Info.plist */,
+			);
+			path = "Washburn Interval Timer AppTests";
+			sourceTree = "<group>";
+		};
+		D193A207215F0C5100FA4A17 /* Washburn Interval Timer AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D193A208215F0C5100FA4A17 /* Washburn_Interval_Timer_AppUITests.swift */,
+				D193A20A215F0C5100FA4A17 /* Info.plist */,
+			);
+			path = "Washburn Interval Timer AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D193A1E4215F0C5000FA4A17 /* Washburn Interval Timer App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D193A20D215F0C5100FA4A17 /* Build configuration list for PBXNativeTarget "Washburn Interval Timer App" */;
+			buildPhases = (
+				D193A1E1215F0C5000FA4A17 /* Sources */,
+				D193A1E2215F0C5000FA4A17 /* Frameworks */,
+				D193A1E3215F0C5000FA4A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Washburn Interval Timer App";
+			productName = "Washburn Interval Timer App";
+			productReference = D193A1E5215F0C5000FA4A17 /* Washburn Interval Timer App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D193A1F8215F0C5100FA4A17 /* Washburn Interval Timer AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D193A210215F0C5100FA4A17 /* Build configuration list for PBXNativeTarget "Washburn Interval Timer AppTests" */;
+			buildPhases = (
+				D193A1F5215F0C5100FA4A17 /* Sources */,
+				D193A1F6215F0C5100FA4A17 /* Frameworks */,
+				D193A1F7215F0C5100FA4A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D193A1FB215F0C5100FA4A17 /* PBXTargetDependency */,
+			);
+			name = "Washburn Interval Timer AppTests";
+			productName = "Washburn Interval Timer AppTests";
+			productReference = D193A1F9215F0C5100FA4A17 /* Washburn Interval Timer AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D193A203215F0C5100FA4A17 /* Washburn Interval Timer AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D193A213215F0C5100FA4A17 /* Build configuration list for PBXNativeTarget "Washburn Interval Timer AppUITests" */;
+			buildPhases = (
+				D193A200215F0C5100FA4A17 /* Sources */,
+				D193A201215F0C5100FA4A17 /* Frameworks */,
+				D193A202215F0C5100FA4A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D193A206215F0C5100FA4A17 /* PBXTargetDependency */,
+			);
+			name = "Washburn Interval Timer AppUITests";
+			productName = "Washburn Interval Timer AppUITests";
+			productReference = D193A204215F0C5100FA4A17 /* Washburn Interval Timer AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D193A1DD215F0C5000FA4A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Miranda Washburn";
+				TargetAttributes = {
+					D193A1E4215F0C5000FA4A17 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D193A1F8215F0C5100FA4A17 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D193A1E4215F0C5000FA4A17;
+					};
+					D193A203215F0C5100FA4A17 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D193A1E4215F0C5000FA4A17;
+					};
+				};
+			};
+			buildConfigurationList = D193A1E0215F0C5000FA4A17 /* Build configuration list for PBXProject "Washburn Interval Timer App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D193A1DC215F0C5000FA4A17;
+			productRefGroup = D193A1E6215F0C5000FA4A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D193A1E4215F0C5000FA4A17 /* Washburn Interval Timer App */,
+				D193A1F8215F0C5100FA4A17 /* Washburn Interval Timer AppTests */,
+				D193A203215F0C5100FA4A17 /* Washburn Interval Timer AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D193A1E3215F0C5000FA4A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D193A1F3215F0C5100FA4A17 /* LaunchScreen.storyboard in Resources */,
+				D193A1F0215F0C5100FA4A17 /* Assets.xcassets in Resources */,
+				D1F8C36421A86460000F1496 /* beep.mp3 in Resources */,
+				D193A1EE215F0C5000FA4A17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D193A1F7215F0C5100FA4A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D193A202215F0C5100FA4A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D193A1E1215F0C5000FA4A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16DB5FA219F39170057D129 /* splashUIViewController.swift in Sources */,
+				D16DB60521A108120057D129 /* washburn_Extensions.swift in Sources */,
+				D193A1EB215F0C5000FA4A17 /* ViewController.swift in Sources */,
+				D193A1E9215F0C5000FA4A17 /* AppDelegate.swift in Sources */,
+				D16DB5F4219902990057D129 /* SecondaryViewController.swift in Sources */,
+				D1E147C821BAF1B7007EF1D6 /* _2_Core_Data_Demo.xcdatamodeld in Sources */,
+				D16DB5F8219922D70057D129 /* roundedButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D193A1F5215F0C5100FA4A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D193A1FE215F0C5100FA4A17 /* Washburn_Interval_Timer_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D193A200215F0C5100FA4A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D193A209215F0C5100FA4A17 /* Washburn_Interval_Timer_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D193A1FB215F0C5100FA4A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D193A1E4215F0C5000FA4A17 /* Washburn Interval Timer App */;
+			targetProxy = D193A1FA215F0C5100FA4A17 /* PBXContainerItemProxy */;
+		};
+		D193A206215F0C5100FA4A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D193A1E4215F0C5000FA4A17 /* Washburn Interval Timer App */;
+			targetProxy = D193A205215F0C5100FA4A17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D193A1EC215F0C5000FA4A17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D193A1ED215F0C5000FA4A17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D193A1F1215F0C5100FA4A17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D193A1F2215F0C5100FA4A17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D193A20B215F0C5100FA4A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D193A20C215F0C5100FA4A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D193A20E215F0C5100FA4A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVT8D2Y598;
+				INFOPLIST_FILE = "Washburn Interval Timer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miranda.Washburn-Interval-Timer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D193A20F215F0C5100FA4A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVT8D2Y598;
+				INFOPLIST_FILE = "Washburn Interval Timer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miranda.Washburn-Interval-Timer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D193A211215F0C5100FA4A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVT8D2Y598;
+				INFOPLIST_FILE = "Washburn Interval Timer AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miranda.Washburn-Interval-Timer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Washburn Interval Timer App.app/Washburn Interval Timer App";
+			};
+			name = Debug;
+		};
+		D193A212215F0C5100FA4A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVT8D2Y598;
+				INFOPLIST_FILE = "Washburn Interval Timer AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miranda.Washburn-Interval-Timer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Washburn Interval Timer App.app/Washburn Interval Timer App";
+			};
+			name = Release;
+		};
+		D193A214215F0C5100FA4A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVT8D2Y598;
+				INFOPLIST_FILE = "Washburn Interval Timer AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miranda.Washburn-Interval-Timer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Washburn Interval Timer App";
+			};
+			name = Debug;
+		};
+		D193A215215F0C5100FA4A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVT8D2Y598;
+				INFOPLIST_FILE = "Washburn Interval Timer AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miranda.Washburn-Interval-Timer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Washburn Interval Timer App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D193A1E0215F0C5000FA4A17 /* Build configuration list for PBXProject "Washburn Interval Timer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D193A20B215F0C5100FA4A17 /* Debug */,
+				D193A20C215F0C5100FA4A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D193A20D215F0C5100FA4A17 /* Build configuration list for PBXNativeTarget "Washburn Interval Timer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D193A20E215F0C5100FA4A17 /* Debug */,
+				D193A20F215F0C5100FA4A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D193A210215F0C5100FA4A17 /* Build configuration list for PBXNativeTarget "Washburn Interval Timer AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D193A211215F0C5100FA4A17 /* Debug */,
+				D193A212215F0C5100FA4A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D193A213215F0C5100FA4A17 /* Build configuration list for PBXNativeTarget "Washburn Interval Timer AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D193A214215F0C5100FA4A17 /* Debug */,
+				D193A215215F0C5100FA4A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1E147C621BAF1B7007EF1D6 /* _2_Core_Data_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1E147C721BAF1B7007EF1D6 /* Model.xcdatamodel */,
+			);
+			currentVersion = D1E147C721BAF1B7007EF1D6 /* Model.xcdatamodel */;
+			path = _2_Core_Data_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D193A1DD215F0C5000FA4A17 /* Project object */;
+}
